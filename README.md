@@ -52,7 +52,7 @@ This dashboard is designed for:
 The final report provides an end-to-end view of fashion marketing and sales performance through three main dashboards:
 
 - **Overview**: executive summary of revenue, ads revenue, spend, budget, impressions, profit, and ROAS
-- **Campaign Performance**: campaign-level efficiency analysis using ROAS, CPC, CPM, CTR, CPA, and campaign ranking
+- **Campaign Performance**: campaign-level efficiency analysis using ROAS, CPC, CPM, CTR, CPA.
 - **Product Analysis**: product and category-level analysis to identify strong products, weak products, and optimisation opportunities
 
 ---
@@ -62,18 +62,6 @@ The final report provides an end-to-end view of fashion marketing and sales perf
 ### Data Source
 
 The dataset contains sales orders, marketing campaign costs, SKU-level campaign allocation, and product master data.
-
-Main source file:
-
-```text
-[DAC] Project 3 - Dataset.xlsx
-```
-
-Power BI file:
-
-```text
-Fashion.pbix
-```
 
 ### Tables Used
 
@@ -91,6 +79,8 @@ Fashion.pbix
 The report uses a star-schema style model. Dimension tables are connected to fact tables to support filtering by date, product, campaign, and category.
 
 Key relationships:
+<img width="1609" height="1536" alt="Screenshot 2026-05-19 210553" src="https://github.com/user-attachments/assets/456bfe85-8643-43c4-8e3a-6078f4c1c70e" />
+
 
 | From Table | To Table | Join Key | Relationship |
 |---|---|---|---|
