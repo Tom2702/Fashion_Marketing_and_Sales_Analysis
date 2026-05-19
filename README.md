@@ -78,9 +78,9 @@ The dataset contains sales orders, marketing campaign costs, SKU-level campaign 
 
 The report uses a star-schema style model. Dimension tables are connected to fact tables to support filtering by date, product, campaign, and category.
 
-Key relationships:
-<img width="1609" height="1536" alt="Screenshot 2026-05-19 210553" src="https://github.com/user-attachments/assets/456bfe85-8643-43c4-8e3a-6078f4c1c70e" />
+<img width="1609" height="1536" alt="Screenshot 2026-05-19 210553" src="https://github.com/user-attachments/assets/957ffeab-3a17-4e01-9706-b3c26680b665" />
 
+Key relationships:
 
 | From Table | To Table | Join Key | Relationship |
 |---|---|---|---|
@@ -161,9 +161,12 @@ The Power BI report contains three main pages:
 2. Campaign Performance
 3. Product Analysis
 
-### I. Overview
+### Overview
 
 The Overview dashboard provides a business-level summary of revenue and marketing efficiency.
+
+<img width="2974" height="1685" alt="Screenshot 2026-05-19 210608" src="https://github.com/user-attachments/assets/98f3d7e0-fd00-48de-8e9f-340007e12958" />
+
 
 Main KPIs:
 
@@ -176,20 +179,34 @@ Main KPIs:
 Key findings:
 
 1. **Ads revenue contributes strongly to total revenue**
-   - Ads Revenue reached approximately `$3.02bn`, showing that marketing campaigns are a major revenue driver.
+   - Total Revenue reached `$4.77bn`, while Ads Revenue contributed `$3.02bn`. This shows that marketing campaigns were a major revenue driver during the selected period.
 
-2. **Marketing spend is highly connected to weekly revenue movement**
-   - Weekly charts show changes in total revenue, ads revenue, and spend, helping stakeholders monitor growth and budget usage.
+2. **Sales growth was supported by higher marketing investment**
+   - Total Revenue increased by `336.7%` compared to last week, while Ads Revenue increased by `331.8%`. At the same time, Total Spend increased by `311.8%`, suggesting that higher campaign investment helped drive revenue growth.
 
-3. **ROAS remains positive overall**
-   - Overall ROAS is `7.67`, meaning each unit of marketing spend generated about `7.67` units of ads-attributed revenue.
+3. **Overall marketing efficiency remained positive**
+   - ROAS reached `7.67`, meaning each `$1` spent on marketing generated about `$7.67` in ads-attributed revenue.
 
-4. **Budget utilisation varies by category**
-   - Some categories use most of their assigned budget, while others still have remaining budget, creating opportunities for reallocation.
+4. **Week 3 showed the strongest volume performance**
+   - Week 3 recorded the highest impression volume at around `1.49M`, along with strong total revenue and ads revenue performance.
+
+5. **Week 5 was more efficient despite lower campaign volume**
+   - Week 5 had the lowest impression volume at around `554K` and fewer campaigns, but achieved the highest weekly ROAS at `10.1`. This suggests that a smaller set of campaigns may have delivered better quality traffic and conversion.
+
+6. **Campaign activity dropped sharply in Week 5**
+   - The number of campaigns decreased from `236` in Week 4 to `95` in Week 5. This likely contributed to lower impressions and spend, but efficiency improved.
+
+7. **Profit declined toward the end of the period**
+   - Profit increased in the early weeks but decreased in Week 4 and Week 5, indicating that later campaign performance should be reviewed more closely from a cost and margin perspective.
+
+8. **Budget utilization varies by category**
+   - Categories such as `Set Quan Ao`, `Ao Tach Set`, and `Chan Vay Tach Set` used budget more aggressively, while `Quan Tach Set` and `Vay Chiet Eo Om` still had more remaining budget. This creates an opportunity for budget reallocation.
 
 ### II. Campaign Performance
 
 The Campaign Performance dashboard evaluates marketing efficiency at the campaign level.
+
+<img width="2910" height="1677" alt="Screenshot 2026-05-19 210628" src="https://github.com/user-attachments/assets/a2354fad-09b6-4fe2-9df7-02e27c73c241" />
 
 Main KPIs:
 
@@ -222,6 +239,8 @@ Right-click a campaign to drill through for more details.
 ### III. Product Analysis
 
 The Product Analysis dashboard identifies which products and categories perform best in terms of marketing investment.
+
+<img width="2981" height="1688" alt="Screenshot 2026-05-19 210642" src="https://github.com/user-attachments/assets/b6782325-b7a6-41d2-b31a-830ac5bf7b71" />
 
 Main visuals:
 
