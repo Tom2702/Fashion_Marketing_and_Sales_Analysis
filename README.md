@@ -14,7 +14,7 @@ Tools Used: Power BI, Power Query, DAX, Data Modeling
 
 ---
 
-## Background & Overview
+## 1. Background & Overview
 
 ### Objective
 
@@ -57,7 +57,7 @@ The final report provides an end-to-end view of fashion marketing and sales perf
 
 ---
 
-## Dataset Description & Data Structure
+## 2. Dataset Description & Data Structure
 
 ### Data Source
 
@@ -115,9 +115,9 @@ Power Query was used to:
 
 ---
 
-## Design Thinking Process
+## 3. Design Thinking Process
 
-### 1. Empathize
+### Empathize
 
 Stakeholders need a dashboard that does more than report sales. They need to know how marketing budget is performing and what tactical actions should be taken.
 
@@ -128,7 +128,7 @@ Main stakeholder needs:
 - Product teams want to know which products and categories perform well
 - Analysts need drill-down capability to explain performance drivers
 
-### 2. Define
+### Define
 
 The main problem is that marketing spend, sales revenue, and product performance are stored in separate tables. Without a connected model, it is difficult to understand which campaigns and products actually drive revenue.
 
@@ -139,7 +139,7 @@ Defined analytical goals:
 - Compare performance by week, campaign, product, and category
 - Provide actionable recommendations for budget optimisation
 
-### 3. Ideate
+### Ideate
 
 The dashboard was designed around three analytical layers:
 
@@ -147,7 +147,7 @@ The dashboard was designed around three analytical layers:
 2. **Campaign layer**: campaign efficiency and budget effectiveness
 3. **Product layer**: SKU/category performance and product-level marketing return
 
-### 4. Prototype & Review
+### Prototype & Review
 
 The report was built in Power BI with:
 
@@ -161,7 +161,7 @@ The report was built in Power BI with:
 
 ---
 
-## Key Insights & Visualizations
+## 4. Key Insights & Visualizations
 
 ### Dashboard Preview
 
@@ -256,9 +256,9 @@ Key findings:
 
 ---
 
-## Final Conclusion & Recommendations
+## 5. Final Conclusion & Recommendations
 
-### 1. Campaign Budget Optimization
+### Campaign Budget Optimization
 
 Insight:
 
@@ -270,7 +270,7 @@ Recommendation:
 - Pause or redesign campaigns with low ROAS and high cost per result.
 - Use drillthrough to identify which products are driving or weakening each campaign.
 
-### 2. Product Portfolio Strategy
+### Product Portfolio Strategy
 
 Insight:
 
@@ -282,7 +282,7 @@ Recommendation:
 - Review products with high spend but weak conversion.
 - Use product matrix conditional formatting to identify products needing pricing, creative, or targeting adjustments.
 
-### 3. Category Investment Strategy
+### Category Investment Strategy
 
 Insight:
 
@@ -294,7 +294,7 @@ Recommendation:
 - Monitor categories with high spend but low efficiency.
 - Compare spend, budget used, and ads revenue before reallocating budget.
 
-### 4. Marketing Efficiency Monitoring
+### Marketing Efficiency Monitoring
 
 Insight:
 
