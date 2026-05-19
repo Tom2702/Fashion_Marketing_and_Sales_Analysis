@@ -218,23 +218,29 @@ Main KPIs:
 
 Key findings:
 
-1. **Campaign performance is uneven**
-   - The scatter plot shows that campaigns differ significantly in spend and ads revenue. Some campaigns generate strong revenue at efficient cost, while others require review.
+1. **Overall campaign efficiency remained strong**
+   - ROAS reached `7.67`, increasing by `4.9%` compared to last week. This indicates that campaign returns improved despite changes in traffic and spend.
 
-2. **Top campaigns should be considered for scaling**
-   - Campaigns with high ads revenue and strong ROAS are candidates for additional budget.
+2. **Traffic volume increased significantly**
+   - Total Impression reached `5.11M`, up `333.5%` from last week. This shows that campaign reach expanded strongly during the selected period.
 
-3. **High CPC or CPA campaigns need optimisation**
-   - Campaigns with high cost but weak conversion should be reviewed for audience targeting, creative quality, or product fit.
+3. **Traffic cost became more efficient**
+   - CPC decreased from `$9.7K` to `$9.5K`, while CPM decreased from `$81.2K` to `$77.1K`. Lower CPC and CPM suggest that the business acquired traffic at a better media cost.
 
-4. **Drillthrough supports deeper analysis**
-   - Users can right-click a campaign to drill through and investigate product-level performance behind the campaign.
+4. **CTR slightly declined and should be monitored**
+   - CTR was `0.82%`, down `2.1%` from last week. Even though traffic cost improved, lower CTR may indicate that ad creatives or targeting should be refreshed.
 
-Suggested dashboard subtitle:
+5. **Campaign performance is uneven**
+   - The scatter plot shows that most campaigns cluster at low-to-mid spend and ads revenue, while a few campaigns stand out with much higher revenue. These outliers should be reviewed to understand what makes them perform better.
 
-```text
-Right-click a campaign to drill through for more details.
-```
+6. **A few campaigns drive a large share of ads revenue**
+   - Campaigns such as `AUDREY SHIRT LAL new`, `FLOWERS MAKE MY DAY`, `AVIAN DRESS`, `MARGNET DRESS`, and `LISA DRESS` appear among the top ads revenue contributors.
+
+7. **Conversion cost remains a key concern**
+   - The campaign funnel shows `5.109M` impressions, `41.6K` clicks, `11.4K` comments/inbox results, and around `2.0K` ads orders. CPA reached `$201.3K`, which should be monitored carefully when deciding whether to scale campaigns.
+
+8. **Weekly CPC performance fluctuated**
+   - CPC peaked around Week 2 and dropped sharply around Week 3 before rising again in Week 4. This suggests that campaign cost efficiency was not stable across the period.
 
 ### III. Product Analysis
 
@@ -251,19 +257,32 @@ Main visuals:
 
 Key findings:
 
-1. **Several products drive large ads revenue**
-   - Products such as Audrey Shirt and Lisa Dress appear among the strongest contributors to ads revenue.
+1. **Vay Chiet Eo Xoe and Ao Tach Set are the largest ads revenue categories**
+   - `Vay Chiet Eo Xoe` generated the highest ads revenue at nearly `$1,000M`, followed by `Ao Tach Set` at around `$875M`. These two categories are the main revenue drivers in product-level marketing performance.
 
-2. **High revenue does not always mean best efficiency**
-   - Some products generate high ads revenue but may have weaker ROAS or higher cost metrics.
+2. **Vay Chiet Eo Om has the strongest ROAS**
+   - Although `Vay Chiet Eo Om` does not have the highest ads revenue, it achieved the highest category ROAS at `22.1`. This suggests strong efficiency and potential opportunity for controlled budget scaling.
 
-3. **Category-level ROAS reveals budget opportunities**
-   - Categories with strong ROAS and lower spend can be considered for increased investment.
+3. **High revenue does not always mean best efficiency**
+   - `Vay Chiet Eo Xoe` and `Ao Tach Set` lead in ads revenue, but their ROAS values are lower than `Vay Chiet Eo Om`. This means revenue volume and efficiency should be evaluated together before reallocating budget.
 
-4. **Conditional formatting helps identify risks quickly**
+4. **CPC differs significantly by category**
+   - `Chan Vay Tach Set` has the highest CPC at around `$15.2K`, while `Vay Chiet Eo Xoe` has the lowest CPC at around `$7.2K`. Categories with high CPC should be reviewed for audience targeting, creative quality, or conversion friction.
+
+5. **Audrey Shirt 3 is the top product by ads revenue**
+   - `Audrey Shirt 3` generated approximately `$311.64M` in ads revenue across `129` campaigns, making it the strongest product contributor in the matrix.
+
+6. **Lisa Dress 5 is the most efficient product among the top products**
+   - `(G)Lisa Dress 5` generated around `$199.95M` in ads revenue with a ROAS of `43.7`, much higher than other leading products. This product is a strong candidate for budget scaling if inventory is available.
+
+7. **Some high-revenue products show weaker efficiency**
+   - `Audrey Shirt 1`, `Audrey Shirt 2`, and `Avian Dress` generated strong ads revenue, but their ROAS values are lower than top performers. These products should be monitored before further budget increases.
+
+8. **CTR performance varies by product**
+   - Products such as `(G)Lisa Dress 5` show stronger CTR, while some high-revenue products have lower CTR. This suggests that creative and audience relevance differ across product groups.
+
+9. **Conditional formatting helps identify risks quickly**
    - Red, green, and yellow formatting highlights strong products, inefficient cost areas, and metrics requiring attention.
-
----
 
 ## 5. Final Conclusion & Recommendations
 
