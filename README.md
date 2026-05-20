@@ -1,10 +1,10 @@
 # Fashion Marketing & Sale Analysis | Power BI
   
 ## Tools Used
-Power BI
-Power Query
-DAX
-Data Modeling
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
 
 ## Table of Contents
 
