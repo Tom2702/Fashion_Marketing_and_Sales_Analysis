@@ -109,7 +109,7 @@ Power Query was used to:
 
 ### Empathize
 
-Stakeholders need a dashboard that does more than report sales. They need to know how marketing budget is performing and what tactical actions should be taken.
+Stakeholders need a dashboard that does more than report sales. They need to know how the marketing budget is performing and what tactical actions should be taken.
 
 Main stakeholder needs:
 
