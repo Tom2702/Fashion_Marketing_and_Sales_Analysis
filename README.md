@@ -1,8 +1,10 @@
 # Fashion Marketing & Sale Analysis | Power BI
-
-Author: Anh Tuan Nguyen  
-Date: Jan 2026  
-Tools Used: Power BI, Power Query, DAX, Data Modeling
+  
+## Tools Used
+Power BI
+Power Query
+DAX
+Data Modeling
 
 ## Table of Contents
 
